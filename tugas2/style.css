@@ -1,0 +1,98 @@
+/* General body settings */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #836b94;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the to-do list */
+.todo-container {
+    background-color: #982e96;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Input box and add button container */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Input field for entering tasks */
+#task-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #fe0202;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Add button */
+#add-btn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff0073;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Task list styling */
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Task items */
+.task-item {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Delete button */
+.delete-btn {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+/* Edit button */
+.edit-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.edit-btn:hover {
+    background-color: #388e3c;
+}
